@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: left;
+    margin: 10px;
+    font-size: 40px;
+   font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    text-align: left;
+    margin: 10px;
+    font-size: 18px;
+    font-style: italic;
+}
+span{
+    color: red;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+ 
+}
+fieldset{
+    border: 1px solid black;
+    margin: 15px;
+ 
+}
+.input_row label{
+    display: flex;
+    float: left;
+    padding: 10px;
+    margin-right: 3em;
+    width: 40px;
+    text-align: start;
+
+}
+input{
+    margin: 5px; 
+    padding: 5px;
+    width: 400px;
+
+}
+textarea{
+    margin: 5px; 
+    padding: 5px;
+    width: 400px;
+    height: 80px;
+}
+.main{
+     padding: 10px;
+}
+select{
+    margin: 5px; 
+    padding: 5px;
+    width: 415px;
+}
+.ch_boxs {
+    display: flex;
+   
+    padding: 10px 0;   
+}
+ 
+input[type=checkbox] {
+     margin-top: 10px; 
+     width: 80px;
+     
+    
+}
+
+button{
+    background-color: lightgray;
+    padding: 12px;
+    margin: 5px 15px;
+    font-size: 14px;
+}
+
+
+

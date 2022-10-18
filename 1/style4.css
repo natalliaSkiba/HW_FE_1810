@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 5px;
+}
+.testbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+form{
+    width: 95%;
+    height: 100%;
+    border-radius: 8px;
+  }
+
+input{
+    padding: 5px;
+    width: calc(100% - 10px);
+ 
+}
+textarea{
+    height: 60px;
+    width: 100%;
+}
+select{
+    width: 100%;
+    padding: 5px 0;
+
+}
+input,select,textarea{
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  
+}
+button {
+    width: 6%;
+    padding: 10px;
+    background-color:  #3263cd;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.button{
+    text-align: center;
+}
+/* меняем цвет текста при наведении курсора */
+.inform:hover p, .inform:hover:hover input,  input:hover::placeholder {
+    color: #3263cd;
+}
+button:hover{
+    background-color:#5b82d7 ;
+}
+
